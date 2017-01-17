@@ -1,0 +1,164 @@
+ $GLOBAL
+     CHIMRA = .T.,
+     INCORE = .F.,
+     NSTEPS = 10,
+     RESTRT = .F.,
+     NSAVE = 5000,
+     NFOMO = 1,
+     NQT = 102,
+     NQC = 0,
+     MULTIG = .F.,
+     FMG = .F.,
+     NGLVL = 0,
+     FMGCYC = 200, 200,
+     DTPHYS = 0.0,
+     NITNWT = 0,
+     FSONWT = 2,
+     SAVE_HIORDER = 2,
+     ISTART_QAVG = 0,
+     NOBOMB = .F.,
+     DEBUG = 0,
+     READ_WALL_DIST = .F.,
+     $END
+
+ $FLOINP
+     ALPHA = 6.0,
+     BETA = 0.0,
+     FSMACH = 0.185,
+     GAMINF = 1.4,
+     REY = 2.51e6,
+     PR = 0.7,
+     PRT = 0.92,
+     TINF = 518.70,
+     RETINF = 1e1,
+     XKINF = 5.0e-5,
+     FROUDE = 0.0,
+     GVEC = 0, 0, 1,
+     $END
+
+ $VARGAM
+     $END
+
+ $GRDNAM
+     NAME = 'main',
+     $END
+ $NITERS ITER=1,
+     $END
+ $METPRM
+     IRHS=0, ILHS=2, IDISS=4, BIMIN=1.0,
+     $END
+ $TIMACU
+     ITIME=4, CFLMIN=2.0, CFLMAX=10.0,
+     $END
+ $SMOACU
+     SMOO=0.0, DIS2=0.0, DIS4=0.02, FSO=4,
+     $END
+ $VISINP
+     VISC=.T.,
+     $END
+ $BCINP
+     IBTYP =     5,   51,   21, 
+     IBDIR =     3,    3,    2, 
+     JBCS  =   100,    1,    1, 
+     JBCE  =  -100,   99,   -1, 
+     KBCS  =     1,    1,    1, 
+     KBCE  =    -1,   -1,    1, 
+     LBCS  =     1,    1,    1, 
+     LBCE  =     1,    1,   -1, 
+     $END
+ $SCEINP
+    
+     $END
+
+ $GRDNAM
+     NAME = 'flap',
+     $END
+ $NITERS
+     $END
+ $METPRM
+    
+     $END
+ $TIMACU
+    
+     $END
+ $SMOACU
+    
+     $END
+ $VISINP
+     VISC=.T.,
+     $END
+ $BCINP
+     IBTYP =     5,   51,   21, 
+     IBDIR =     3,    3,    2, 
+     JBCS  =   100,    1,    1, 
+     JBCE  =  -100,   99,   -1, 
+     KBCS  =     1,    1,    1, 
+     KBCE  =    -1,   -1,    1, 
+     LBCS  =     1,    1,    1, 
+     LBCE  =     1,    1,   -1, 
+     $END
+ $SCEINP
+    
+     $END
+
+ $GRDNAM
+     NAME = 'boxinner',
+     $END
+ $NITERS
+     $END
+ $METPRM
+    
+     $END
+ $TIMACU
+    
+     $END
+ $SMOACU
+    
+     $END
+ $VISINP
+    
+     $END
+ $BCINP
+     IBTYP =    21, 
+     IBDIR =     2, 
+     JBCS  =     1, 
+     JBCE  =    -1, 
+     KBCS  =     1, 
+     KBCE  =     1, 
+     LBCS  =     1, 
+     LBCE  =    -1, 
+     $END
+ $SCEINP
+    
+     $END
+
+ $GRDNAM
+     NAME = 'boxouter',
+     $END
+ $NITERS
+     $END
+ $METPRM
+    
+     $END
+ $TIMACU
+    
+     $END
+ $SMOACU
+    
+     $END
+ $VISINP
+    
+     $END
+ $BCINP
+     IBTYP =    47,   30,   21,   47,   47, 
+     IBDIR =     1,   -1,    2,    3,   -3, 
+     JBCS  =     1,   -1,    1,    1,    1, 
+     JBCE  =     1,   -1,   -1,   -1,   -1, 
+     KBCS  =     1,    1,    1,    1,    1, 
+     KBCE  =    -1,   -1,    1,   -1,   -1, 
+     LBCS  =     1,    1,    1,    1,   -1, 
+     LBCE  =    -1,   -1,   -1,    1,   -1, 
+     $END
+ $SCEINP
+    
+     $END

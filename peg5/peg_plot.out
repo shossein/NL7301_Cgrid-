@@ -1,0 +1,12 @@
+Enter name for output PLOT3D grid file: Fringe Levels to show: 
+  1 = single fringe: blank out all level 2 and higher fringes
+  2 = double fringe: blank out all level 3 and higher fringes
+  3 = all fringes:   blank out only minimum and manual holes
+Enter Fringe Level to plot: 
+Mesh No.            Name   ORPHANS:  1st-level   2nd-level   3rd-level   Total
+   1                main             0           0           0           0
+   2                flap             0           0           0           0
+   3            boxinner             0           0           0           0
+   4            boxouter             0           0           0           0
+
+Total                                0           0           0           0

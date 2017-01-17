@@ -1,0 +1,10 @@
+======================================================
+           Output from SRAP version 3.0               
+======================================================
+
+Enter input filename Enter output file  Enter number of input blocks and [MULTIG]
+ Enter grid number and redistribution option
+ Enter IDIR(1/2/3), IMODE(1/2), [ISPEC(1/2/3/4/5/6)]
+ Enter no. of segments NSEG, no. of nodes NNODE
+ Enter IS,IE,PAR
+ Enter NODEI, DELS, DELE

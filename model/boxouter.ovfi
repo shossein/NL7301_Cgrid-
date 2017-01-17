@@ -1,0 +1,31 @@
+
+ $GRDNAM
+     NAME = 'boxouter',
+     $END
+ $NITERS
+     $END
+ $METPRM
+    
+     $END
+ $TIMACU
+    
+     $END
+ $SMOACU
+    
+     $END
+ $VISINP
+    
+     $END
+ $BCINP
+     IBTYP =    47,   30,   21,   47,   47, 
+     IBDIR =     1,   -1,    2,    3,   -3, 
+     JBCS  =     1,   -1,    1,    1,    1, 
+     JBCE  =     1,   -1,   -1,   -1,   -1, 
+     KBCS  =     1,    1,    1,    1,    1, 
+     KBCE  =    -1,   -1,    1,   -1,   -1, 
+     LBCS  =     1,    1,    1,    1,   -1, 
+     LBCE  =    -1,   -1,   -1,    1,   -1, 
+     $END
+ $SCEINP
+    
+     $END

@@ -1,0 +1,10 @@
+main.srf
+main.vol
+0                                IFORM(0/1)
+2 1 0                        IZSTRT(1/2),NZREG,KBLAYER
+113 1.0 1e-6 0.0          NPZREG(),ZREG(),DZ0(),DZ1()
+2 2 2 2      IBCJA,IBCJB,IBCKA,IBCKB
+1 0.0 10 1  IVSPEC(1/2),EPSSS,ITSVOL NSUB
+2 1.0                     IMETH(0/1/2/3),SMU2
+0.0 0.0                      TIMJ TIMK
+1 0.3 0.3           IAXIS(1/2),EXAXIS,VOLRES

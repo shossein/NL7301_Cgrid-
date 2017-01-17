@@ -1,0 +1,13 @@
+1,0                             IMODE,MLEVEL
+-0.921404219364766 2.56019615503429 -1.0000000038659 1.00000000458008 -1.4139496487918 1.07470487841057   X,Y,Z MINMAX
+0.06963200748798112 1.0 0.06963200748798112                  DX,DY,DZ
+1                                 IOPT(1/2)
+1                                 ISTR(1/2/3)
+1 10.0 1.12                   IAD,DOL,RMAX (JA)
+1 10.0 1.12                   IAD,DOL,RMAX (JB)
+0 0.0 1.12                   IAD,DOL,RMAX (KA)
+0 0.0 1.12                   IAD,DOL,RMAX (KB)
+1 10.0 1.12                   IAD,DOL,RMAX (LA)
+1 10.0 1.12                   IAD,DOL,RMAX (LB)
+boxinner.vol
+boxinner2.vol

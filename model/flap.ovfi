@@ -1,0 +1,15 @@
+
+ $GRDNAM
+    NAME = 'flap',
+    $END
+ $BCINP
+    IBTYP =    5,   51,  21,
+    IBDIR =    3,    3,   2,
+    JBCS  =  100,    1,   1,
+    JBCE  = -100,   99,  -1,
+    KBCS  =    1,    1,   1,
+    KBCE  =   -1,   -1,   1,
+    LBCS  =    1,    1,   1,
+    LBCE  =    1,    1,  -1,
+    $END
+C Family: flap

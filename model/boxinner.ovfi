@@ -1,0 +1,31 @@
+
+ $GRDNAM
+     NAME = 'boxinner',
+     $END
+ $NITERS
+     $END
+ $METPRM
+    
+     $END
+ $TIMACU
+    
+     $END
+ $SMOACU
+    
+     $END
+ $VISINP
+    
+     $END
+ $BCINP
+     IBTYP =    21, 
+     IBDIR =     2, 
+     JBCS  =     1, 
+     JBCE  =    -1, 
+     KBCS  =     1, 
+     KBCE  =     1, 
+     LBCS  =     1, 
+     LBCE  =    -1, 
+     $END
+ $SCEINP
+    
+     $END

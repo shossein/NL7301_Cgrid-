@@ -1,0 +1,1389 @@
+
+
+                   PEGASUS 5 Output File
+               Month: 01 Day: 17 Time: 00:23
+
+                          PEGASUS   
+
+                        NASA VERSION 
+
+   Developed by Micro Craft Inc. & NASA Ames Research Center
+                        Version  5.2a
+                         July 2015
+
+  Number of $MESH groups in input:           4
+  Number of $BOUNDARY groups in input:           0
+  Number of $SURFACE groups in input:           0
+  Number of $BOX groups in input:           0
+  Number of $REGION groups in input:           0
+  Number of $VOLUME groups in input:           0
+  Number of $HCUT groups in input:           0
+
+
+     ***** GLOBAL PARAMETER SUMMARY *****
+
+     INCORE               =    F
+     START                =projection                              
+     THRU                 =xintout                                 
+     EXCLBC               =     T
+     OUTER                =     T
+     LEVEL2               =     T
+     PROJECT              =     T
+     CENTER               =     F
+     SHIFT                =  3
+
+
+
+     NO INCLUDE RANGES SPECIFIED
+
+     NO. OF FRINGE POINTS = 2
+     NO. OF HBFRNG POINTS = 2
+     NO. OF OBFRNG POINTS = 2
+     FIX SECOND FRINGE ORPHAN POINTS =     T
+     OFFSET               = 3
+     EPS                  =   0.1000E-02
+     QTOL                 = 0.0100
+     QCUTOFF              = 0.1000
+     ANGLE                =  30.0000
+     DISTANCE             =    20
+
+
+     FIX BILATERAL SYMMETRY ABOUT X=0 :     F
+     FIX BILATERAL SYMMETRY ABOUT Y=0 :     F
+     FIX BILATERAL SYMMETRY ABOUT Z=0 :     F
+
+
+     THE FINAL OUTPUT WILL BE WRITTEN TO AN XINTOUT FILE
+
+
+
+     ***** CUTTER_CONTROL PARAMETER SUMMARY *****
+
+     AUTOHCT              =     1
+     HCUT                 =     T
+     INTERNAL             =     F
+     XCUTS                =     T
+     YCUTS                =     T
+     ZCUTS                =     T
+
+     CARTESIAN HOLE CUTTER LOGICAL DIMENSIONS:   512   512   512
+
+     CARTESIAN HOLE CUTTER PHYSICAL LIMITS:
+     MINIMUM X =  -0.1000E+31     MAXIMUM X =   0.1000E+31
+     MINIMUM Y =  -0.1000E+31     MAXIMUM Y =   0.1000E+31
+     MINIMUM Z =  -0.1000E+31     MAXIMUM Z =   0.1000E+31
+
+     EXCLUDED MESHES
+
+     USER-SPECIFIED CUTTING PLANES
+
+     MIN/MAX OF DOMAIN
+     MIN X =  -0.1151E+03     MAX X =   0.1167E+03
+     MIN Y =  -0.1000E+01     MAX Y =   0.1000E+01
+     MIN Z =  -0.1158E+03     MAX Z =   0.1155E+03
+
+
+     ***** MESH PARAMETER SUMMARY *****
+
+
+     MESH NAME: main                                    
+
+     MESH NO.=    1
+
+     INDEX RANGES:  JMAX =  1131  KMAX =     3  LMAX =   113
+
+     TRANSLATION: X0    =   0.0000E+00  Y0   =   0.0000E+00  Z0  =   0.0000E+00
+     ROTATION:    XR    =   0.0000E+00  YR   =   0.0000E+00  ZR  =   0.0000E+00
+                  ALPHA =   0.0000E+00  BETA =   0.0000E+00  GAMMA =   0.0000E+00
+     SCALING:     SCALE =   0.1000E+01
+
+     NO. OF FRINGE POINTS   = 2
+     NO. OF HBFRNG POINTS = 2
+     NO. OF OBFRNG POINTS = 2
+     FIX INNER FRINGE ORPHANS =     T
+     PHANTOM              =     F
+     DATASURF             =     F
+     OFFSET               = 3
+     OFFSTJ               = 0
+     OFFSTK               = 0
+     OFFSTL               = 0
+     EPS                  =   0.1000E-02
+     QTOL                 = 0.0100
+     QCUTOFF              = 0.1000
+     ANGLE                =  30.0000
+     DISTANCE             =    20
+
+     MIN/MAX OF MESH:
+        MIN X =  -0.9217E+00     MAX X =   0.1956E+01
+        MIN Y =  -0.1000E+01     MAX Y =   0.1000E+01
+        MIN Z =  -0.1059E+01     MAX Z =   0.1075E+01
+        MIN c1=  -0.2331E+01     MAX c1=   0.3972E+01
+        MIN c2=  -0.3942E+01     MAX c2=   0.2340E+01
+        MIN c3=  -0.2331E+01     MAX c3=   0.3972E+01
+        MIN c4=  -0.3942E+01     MAX c4=   0.2340E+01
+        MIN e1=  -0.1922E+01     MAX e1=   0.2957E+01
+        MIN e2=  -0.2957E+01     MAX e2=   0.1922E+01
+        MIN e3=  -0.1331E+01     MAX e3=   0.2972E+01
+        MIN e4=  -0.2942E+01     MAX e4=   0.1340E+01
+        MIN e5=  -0.2059E+01     MAX e5=   0.2075E+01
+        MIN e6=  -0.2059E+01     MAX e6=   0.2075E+01
+
+     MESH TOPOLOGY:
+        JPERI   =     F
+        KPERI   =     F
+        LPERI   =     F
+        C-GRID at J=1, K AROUND =     F
+        C-GRID at J=1, L AROUND =     F
+        C-GRID at K=1, J AROUND =     F
+        C-GRID at K=1, L AROUND =     F
+        C-GRID at L=1, J AROUND =     T
+        C-GRID at L=1, K AROUND =     F
+        BOXGRID =     F
+        X=0 SYMMETRY IN J-DIRECTION =     F
+        X=0 SYMMETRY IN K-DIRECTION =     F
+        X=0 SYMMETRY IN L-DIRECTION =     F
+        Y=0 SYMMETRY IN J-DIRECTION =     F
+        Y=0 SYMMETRY IN K-DIRECTION =     F
+        Y=0 SYMMETRY IN L-DIRECTION =     F
+        Z=0 SYMMETRY IN J-DIRECTION =     F
+        Z=0 SYMMETRY IN K-DIRECTION =     F
+        Z=0 SYMMETRY IN L-DIRECTION =     F
+
+     INCLUDE PARAMETERS
+     MIN X =  -0.1151E+03     MAX X =   0.1167E+03
+     MIN Y =  -0.1000E+01     MAX Y =   0.1000E+01
+     MIN Z =  -0.1158E+03     MAX Z =   0.1155E+03
+     MIN J =     1            MAX J =  1131
+     MIN K =     2            MAX K =     3
+     MIN L =     1            MAX L =   113
+
+      Solid B.C. projected: SHIFT= 3
+      For the following meshes:
+     flap                                    
+     boxinner                                
+     boxouter                                
+
+
+     MESH NAME: flap                                    
+
+     MESH NO.=    2
+
+     INDEX RANGES:  JMAX =   559  KMAX =     3  LMAX =   113
+
+     TRANSLATION: X0    =   0.0000E+00  Y0   =   0.0000E+00  Z0  =   0.0000E+00
+     ROTATION:    XR    =   0.0000E+00  YR   =   0.0000E+00  ZR  =   0.0000E+00
+                  ALPHA =   0.0000E+00  BETA =   0.0000E+00  GAMMA =   0.0000E+00
+     SCALING:     SCALE =   0.1000E+01
+
+     NO. OF FRINGE POINTS   = 2
+     NO. OF HBFRNG POINTS = 2
+     NO. OF OBFRNG POINTS = 2
+     FIX INNER FRINGE ORPHANS =     T
+     PHANTOM              =     F
+     DATASURF             =     F
+     OFFSET               = 3
+     OFFSTJ               = 0
+     OFFSTK               = 0
+     OFFSTL               = 0
+     EPS                  =   0.1000E-02
+     QTOL                 = 0.0100
+     QCUTOFF              = 0.1000
+     ANGLE                =  30.0000
+     DISTANCE             =    20
+
+     MIN/MAX OF MESH:
+        MIN X =   0.4876E-02     MAX X =   0.2560E+01
+        MIN Y =  -0.1000E+01     MAX Y =   0.1000E+01
+        MIN Z =  -0.1414E+01     MAX Z =   0.9317E+00
+        MIN c1=  -0.1421E+01     MAX c1=   0.4026E+01
+        MIN c2=  -0.4290E+01     MAX c2=   0.1358E+01
+        MIN c3=  -0.1421E+01     MAX c3=   0.4026E+01
+        MIN c4=  -0.4290E+01     MAX c4=   0.1358E+01
+        MIN e1=  -0.9953E+00     MAX e1=   0.3561E+01
+        MIN e2=  -0.3561E+01     MAX e2=   0.9953E+00
+        MIN e3=  -0.4212E+00     MAX e3=   0.3026E+01
+        MIN e4=  -0.3290E+01     MAX e4=   0.3581E+00
+        MIN e5=  -0.2414E+01     MAX e5=   0.1932E+01
+        MIN e6=  -0.2414E+01     MAX e6=   0.1932E+01
+
+     MESH TOPOLOGY:
+        JPERI   =     F
+        KPERI   =     F
+        LPERI   =     F
+        C-GRID at J=1, K AROUND =     F
+        C-GRID at J=1, L AROUND =     F
+        C-GRID at K=1, J AROUND =     F
+        C-GRID at K=1, L AROUND =     F
+        C-GRID at L=1, J AROUND =     T
+        C-GRID at L=1, K AROUND =     F
+        BOXGRID =     F
+        X=0 SYMMETRY IN J-DIRECTION =     F
+        X=0 SYMMETRY IN K-DIRECTION =     F
+        X=0 SYMMETRY IN L-DIRECTION =     F
+        Y=0 SYMMETRY IN J-DIRECTION =     F
+        Y=0 SYMMETRY IN K-DIRECTION =     T
+        Y=0 SYMMETRY IN L-DIRECTION =     F
+        Z=0 SYMMETRY IN J-DIRECTION =     F
+        Z=0 SYMMETRY IN K-DIRECTION =     F
+        Z=0 SYMMETRY IN L-DIRECTION =     F
+
+     INCLUDE PARAMETERS
+     MIN X =  -0.1151E+03     MAX X =   0.1167E+03
+     MIN Y =  -0.1000E+01     MAX Y =   0.1000E+01
+     MIN Z =  -0.1158E+03     MAX Z =   0.1155E+03
+     MIN J =     1            MAX J =   559
+     MIN K =     2            MAX K =     3
+     MIN L =     1            MAX L =   113
+
+      Solid B.C. projected: SHIFT= 3
+      For the following meshes:
+     main                                    
+     boxinner                                
+     boxouter                                
+
+
+     MESH NAME: boxinner                                
+
+     MESH NO.=    3
+
+     INDEX RANGES:  JMAX =   101  KMAX =     3  LMAX =    88
+
+     TRANSLATION: X0    =   0.0000E+00  Y0   =   0.0000E+00  Z0  =   0.0000E+00
+     ROTATION:    XR    =   0.0000E+00  YR   =   0.0000E+00  ZR  =   0.0000E+00
+                  ALPHA =   0.0000E+00  BETA =   0.0000E+00  GAMMA =   0.0000E+00
+     SCALING:     SCALE =   0.1000E+01
+
+     NO. OF FRINGE POINTS   = 2
+     NO. OF HBFRNG POINTS = 2
+     NO. OF OBFRNG POINTS = 2
+     FIX INNER FRINGE ORPHANS =     T
+     PHANTOM              =     F
+     DATASURF             =     F
+     OFFSET               = 2
+     OFFSTJ               = 0
+     OFFSTK               = 0
+     OFFSTL               = 0
+     EPS                  =   0.1000E-02
+     QTOL                 = 0.0100
+     QCUTOFF              = 0.1000
+     ANGLE                =  30.0000
+     DISTANCE             =    20
+
+     MIN/MAX OF MESH:
+        MIN X =  -0.1132E+02     MAX X =   0.1296E+02
+        MIN Y =  -0.1000E+01     MAX Y =   0.1000E+01
+        MIN Z =  -0.1186E+02     MAX Z =   0.1152E+02
+        MIN c1=  -0.2418E+02     MAX c1=   0.2548E+02
+        MIN c2=  -0.2582E+02     MAX c2=   0.2384E+02
+        MIN c3=  -0.2418E+02     MAX c3=   0.2548E+02
+        MIN c4=  -0.2582E+02     MAX c4=   0.2384E+02
+        MIN e1=  -0.1232E+02     MAX e1=   0.1396E+02
+        MIN e2=  -0.1396E+02     MAX e2=   0.1232E+02
+        MIN e3=  -0.2318E+02     MAX e3=   0.2448E+02
+        MIN e4=  -0.2482E+02     MAX e4=   0.2284E+02
+        MIN e5=  -0.1286E+02     MAX e5=   0.1252E+02
+        MIN e6=  -0.1286E+02     MAX e6=   0.1252E+02
+
+     MESH TOPOLOGY:
+        JPERI   =     F
+        KPERI   =     F
+        LPERI   =     F
+        C-GRID at J=1, K AROUND =     F
+        C-GRID at J=1, L AROUND =     F
+        C-GRID at K=1, J AROUND =     F
+        C-GRID at K=1, L AROUND =     F
+        C-GRID at L=1, J AROUND =     F
+        C-GRID at L=1, K AROUND =     F
+        BOXGRID =     T
+        X=0 SYMMETRY IN J-DIRECTION =     F
+        X=0 SYMMETRY IN K-DIRECTION =     F
+        X=0 SYMMETRY IN L-DIRECTION =     F
+        Y=0 SYMMETRY IN J-DIRECTION =     F
+        Y=0 SYMMETRY IN K-DIRECTION =     T
+        Y=0 SYMMETRY IN L-DIRECTION =     F
+        Z=0 SYMMETRY IN J-DIRECTION =     F
+        Z=0 SYMMETRY IN K-DIRECTION =     F
+        Z=0 SYMMETRY IN L-DIRECTION =     F
+
+     INCLUDE PARAMETERS
+     MIN X =  -0.1151E+03     MAX X =   0.1167E+03
+     MIN Y =  -0.1000E+01     MAX Y =   0.1000E+01
+     MIN Z =  -0.1158E+03     MAX Z =   0.1155E+03
+     MIN J =     1            MAX J =   101
+     MIN K =     2            MAX K =     3
+     MIN L =     1            MAX L =    88
+
+      Solid B.C. projected: SHIFT= 3
+      For the following meshes:
+     main                                    
+     flap                                    
+     boxouter                                
+
+
+     MESH NAME: boxouter                                
+
+     MESH NO.=    4
+
+     INDEX RANGES:  JMAX =   107  KMAX =     3  LMAX =   106
+
+     TRANSLATION: X0    =   0.0000E+00  Y0   =   0.0000E+00  Z0  =   0.0000E+00
+     ROTATION:    XR    =   0.0000E+00  YR   =   0.0000E+00  ZR  =   0.0000E+00
+                  ALPHA =   0.0000E+00  BETA =   0.0000E+00  GAMMA =   0.0000E+00
+     SCALING:     SCALE =   0.1000E+01
+
+     NO. OF FRINGE POINTS   = 2
+     NO. OF HBFRNG POINTS = 2
+     NO. OF OBFRNG POINTS = 2
+     FIX INNER FRINGE ORPHANS =     T
+     PHANTOM              =     F
+     DATASURF             =     F
+     OFFSET               = 2
+     OFFSTJ               = 0
+     OFFSTK               = 0
+     OFFSTL               = 0
+     EPS                  =   0.1000E-02
+     QTOL                 = 0.0100
+     QCUTOFF              = 0.1000
+     ANGLE                =  30.0000
+     DISTANCE             =    20
+
+     MIN/MAX OF MESH:
+        MIN X =  -0.1151E+03     MAX X =   0.1167E+03
+        MIN Y =  -0.1000E+01     MAX Y =   0.1000E+01
+        MIN Z =  -0.1158E+03     MAX Z =   0.1155E+03
+        MIN c1=  -0.2319E+03     MAX c1=   0.2332E+03
+        MIN c2=  -0.2335E+03     MAX c2=   0.2315E+03
+        MIN c3=  -0.2319E+03     MAX c3=   0.2332E+03
+        MIN c4=  -0.2335E+03     MAX c4=   0.2315E+03
+        MIN e1=  -0.1161E+03     MAX e1=   0.1177E+03
+        MIN e2=  -0.1177E+03     MAX e2=   0.1161E+03
+        MIN e3=  -0.2309E+03     MAX e3=   0.2321E+03
+        MIN e4=  -0.2325E+03     MAX e4=   0.2305E+03
+        MIN e5=  -0.1168E+03     MAX e5=   0.1165E+03
+        MIN e6=  -0.1168E+03     MAX e6=   0.1165E+03
+
+     MESH TOPOLOGY:
+        JPERI   =     F
+        KPERI   =     F
+        LPERI   =     F
+        C-GRID at J=1, K AROUND =     F
+        C-GRID at J=1, L AROUND =     F
+        C-GRID at K=1, J AROUND =     F
+        C-GRID at K=1, L AROUND =     F
+        C-GRID at L=1, J AROUND =     F
+        C-GRID at L=1, K AROUND =     F
+        BOXGRID =     T
+        X=0 SYMMETRY IN J-DIRECTION =     F
+        X=0 SYMMETRY IN K-DIRECTION =     F
+        X=0 SYMMETRY IN L-DIRECTION =     F
+        Y=0 SYMMETRY IN J-DIRECTION =     F
+        Y=0 SYMMETRY IN K-DIRECTION =     T
+        Y=0 SYMMETRY IN L-DIRECTION =     F
+        Z=0 SYMMETRY IN J-DIRECTION =     F
+        Z=0 SYMMETRY IN K-DIRECTION =     F
+        Z=0 SYMMETRY IN L-DIRECTION =     F
+
+     INCLUDE PARAMETERS
+     MIN X =  -0.1151E+03     MAX X =   0.1167E+03
+     MIN Y =  -0.1000E+01     MAX Y =   0.1000E+01
+     MIN Z =  -0.1158E+03     MAX Z =   0.1155E+03
+     MIN J =     1            MAX J =   107
+     MIN K =     2            MAX K =     3
+     MIN L =     1            MAX L =   106
+
+      Solid B.C. projected: SHIFT= 3
+      For the following meshes:
+     main                                    
+     flap                                    
+     boxinner                                
+
+
+     ***** BOUNDARY PARAMETER SUMMARY *****
+
+
+     ***** SURFACE PARAMETER SUMMARY *****
+
+
+     ***** BOX PARAMETER SUMMARY *****
+
+
+     ***** REGION PARAMETER SUMMARY *****
+
+
+     ***** VOLUME PARAMETER SUMMARY *****
+
+
+     ***** HCUT SUMMARY *****
+
+
+     ***** AUTOMATIC OUTER BOUNDARY SUMMARY *****
+
+     INCLUDED MESHES
+     main                                    
+     flap                                    
+     boxinner                                
+     boxouter                                
+
+     EXCLUDED MESHES
+
+
+     ***** LEVEL2 SUMMARY *****
+
+     INCLUDED MESHES
+     main                                    
+     flap                                    
+     boxinner                                
+     boxouter                                
+
+     EXCLUDED MESHES
+
+
+     ***** BOUNDARY CONDITION SUMMARY *****
+
+     MESH: main                
+     IBTYP =     5,   51,   -1,   -1,   21,   51,   21,
+     IBDIR =     3,    3,    3,    3,    2,    3,   -2,
+     JBCS  =   100,    1,   99, 1032,    1, 1033,    1,
+     JBCE  =  1032,   99,  100, 1033, 1131, 1131, 1131,
+     KBCS  =     1,    1,    1,    1,    1,    1,    3,
+     KBCE  =     3,    3,    3,    3,    1,    3,    3,
+     LBCS  =     1,    1,    1,    1,    1,    1,    1,
+     LBCE  =     1,    1,    1,    1,  113,    1,  113,
+     X2D,Y2D,Z2D =     0,    1,    0,
+     XSYM,YSYM,ZSYM =     0,    0,    0,
+
+
+     MESH: flap                
+     IBTYP =     5,   51,   -1,   -1,   21,   51,   21,
+     IBDIR =     3,    3,    3,    3,    2,    3,   -2,
+     JBCS  =   100,    1,   99,  460,    1,  461,    1,
+     JBCE  =   460,   99,  100,  461,  559,  559,  559,
+     KBCS  =     1,    1,    1,    1,    1,    1,    3,
+     KBCE  =     3,    3,    3,    3,    1,    3,    3,
+     LBCS  =     1,    1,    1,    1,    1,    1,    1,
+     LBCE  =     1,    1,    1,    1,  113,    1,  113,
+     X2D,Y2D,Z2D =     0,    1,    0,
+     XSYM,YSYM,ZSYM =     0,    0,    0,
+
+
+     MESH: boxinner            
+     IBTYP =    21,   21,
+     IBDIR =     2,   -2,
+     JBCS  =     1,    1,
+     JBCE  =   101,  101,
+     KBCS  =     1,    3,
+     KBCE  =     1,    3,
+     LBCS  =     1,    1,
+     LBCE  =    88,   88,
+     X2D,Y2D,Z2D =     0,    1,    0,
+     XSYM,YSYM,ZSYM =     0,    0,    0,
+
+
+     MESH: boxouter            
+     IBTYP =    47,   30,   21,   47,   47,   21,
+     IBDIR =     1,   -1,    2,    3,   -3,   -2,
+     JBCS  =     1,  107,    1,    1,    1,    1,
+     JBCE  =     1,  107,  107,  107,  107,  107,
+     KBCS  =     1,    1,    1,    1,    1,    3,
+     KBCE  =     3,    3,    1,    3,    3,    3,
+     LBCS  =     1,    1,    1,    1,  106,    1,
+     LBCE  =   106,  106,  106,    1,  106,  106,
+     X2D,Y2D,Z2D =     0,    1,    0,
+     XSYM,YSYM,ZSYM =     0,    0,    0,
+
+
+EXECUTING: autohct at 00:23:34.417
+
+
+     ***** AUTO HCUT SUMMARY *****
+------------------------------
+  NAME:AUTO_HOLE_CUTTER001                     
+     cnx, cny, cnz:   512   512   512
+     xmin, xmax, dx =    -0.590821E-02    0.120764E+01    0.121355E+01
+     ymin, ymax, dy =    -0.100000E+01    0.100000E+01    0.200000E+01
+     zmin, zmax, dz =    -0.105723E+00    0.893849E-01    0.195108E+00
+     number of wall points =       2592
+     oface =  T  T  F  F  T  T
+     ocorn =  T  T  T  T  T  T  T  T
+     internal =  F
+
+
+     MEMBERS
+     main                                    
+     flap                                    
+
+     INCLUDE MESHES
+     main                                    
+     flap                                    
+     boxinner                                
+     boxouter                                
+ WALL TIME(secs):           0.031
+
+EXECUTING: process_dep at 00:23:34.449
+
+Total number of processes:        60
+Total number of input  files:       203
+Total number of output files:        97
+   Number of processes with no dependancies:     17
+
+ WALL TIME(secs):           0.001
+
+EXECUTING:                               projection at 00:23:34.450
+ Primary 1:main                                    
+ Primary 2:flap                                    
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ Projected:         0 points out of         0
+ Points exceeding angle limit =          0
+ Points exceeding dist  limit =          0
+ Max distance projected:    0.00000E+00
+ From Mesh:main                                    
+ onto Mesh:flap                                    
+ WALL TIME(secs):           0.001
+
+EXECUTING:                               projection at 00:23:34.451
+ Primary 1:main                                    
+ Primary 2:boxinner                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ No projection performed:
+ From Mesh:main                                    
+ onto Mesh:boxinner                                
+ WALL TIME(secs):           0.000
+
+EXECUTING:                               projection at 00:23:34.451
+ Primary 1:main                                    
+ Primary 2:boxouter                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ No projection performed:
+ From Mesh:main                                    
+ onto Mesh:boxouter                                
+ WALL TIME(secs):           0.000
+
+EXECUTING:                               projection at 00:23:34.451
+ Primary 1:flap                                    
+ Primary 2:main                                    
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ Projected:         0 points out of       261
+ Points exceeding angle limit =          0
+ Points exceeding dist  limit =          0
+ Max distance projected:    0.00000E+00
+ From Mesh:flap                                    
+ onto Mesh:main                                    
+ WALL TIME(secs):           0.001
+
+EXECUTING:                               projection at 00:23:34.452
+ Primary 1:flap                                    
+ Primary 2:boxinner                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ No projection performed:
+ From Mesh:flap                                    
+ onto Mesh:boxinner                                
+ WALL TIME(secs):           0.000
+
+EXECUTING:                               projection at 00:23:34.452
+ Primary 1:flap                                    
+ Primary 2:boxouter                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ No projection performed:
+ From Mesh:flap                                    
+ onto Mesh:boxouter                                
+ WALL TIME(secs):           0.000
+
+EXECUTING:                               projection at 00:23:34.452
+ Primary 1:boxinner                                
+ Primary 2:main                                    
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ No projection performed:
+ From Mesh:boxinner                                
+ onto Mesh:main                                    
+ WALL TIME(secs):           0.000
+
+EXECUTING:                               projection at 00:23:34.452
+ Primary 1:boxinner                                
+ Primary 2:flap                                    
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ No projection performed:
+ From Mesh:boxinner                                
+ onto Mesh:flap                                    
+ WALL TIME(secs):           0.000
+
+EXECUTING:                               projection at 00:23:34.452
+ Primary 1:boxinner                                
+ Primary 2:boxouter                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ No projection performed:
+ From Mesh:boxinner                                
+ onto Mesh:boxouter                                
+ WALL TIME(secs):           0.000
+
+EXECUTING:                               projection at 00:23:34.452
+ Primary 1:boxouter                                
+ Primary 2:main                                    
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ No projection performed:
+ From Mesh:boxouter                                
+ onto Mesh:main                                    
+ WALL TIME(secs):           0.000
+
+EXECUTING:                               projection at 00:23:34.452
+ Primary 1:boxouter                                
+ Primary 2:flap                                    
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ No projection performed:
+ From Mesh:boxouter                                
+ onto Mesh:flap                                    
+ WALL TIME(secs):           0.000
+
+EXECUTING:                               projection at 00:23:34.452
+ Primary 1:boxouter                                
+ Primary 2:boxinner                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ No projection performed:
+ From Mesh:boxouter                                
+ onto Mesh:boxinner                                
+ WALL TIME(secs):           0.000
+
+EXECUTING:                                      adt at 00:23:34.452
+ Primary 1:main                                    
+ Primary 2:                                        
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ WALL TIME(secs):           0.069
+
+EXECUTING:                                      adt at 00:23:34.521
+ Primary 1:flap                                    
+ Primary 2:                                        
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ WALL TIME(secs):           0.036
+
+EXECUTING:                                      adt at 00:23:34.558
+ Primary 1:boxinner                                
+ Primary 2:                                        
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ WALL TIME(secs):           0.004
+
+EXECUTING:                                      adt at 00:23:34.562
+ Primary 1:boxouter                                
+ Primary 2:                                        
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ WALL TIME(secs):           0.006
+
+EXECUTING:                              auto_hbound at 00:23:34.568
+ Primary 1:AUTO_HOLE_CUTTER001                     
+ Primary 2:                                        
+ Number of Secondary_1:     2
+ Secondary_1: main                                    
+ Secondary_1: flap                                    
+ Number of Secondary_2:     0
+ Secondary_2: 
+
+     CARTESIAN HOLE CUTTER PHYSICAL DIMENSIONS FOR HCUT = AUTO_HOLE_CUTTER001                     
+     MINIMUM X =  -0.5908E-02     MAXIMUM X =   0.1208E+01
+     MINIMUM Y =  -0.1000E+01     MAXIMUM Y =   0.1000E+01
+     MINIMUM Z =  -0.1057E+00     MAXIMUM Z =   0.8938E-01
+
+
+ Paint results for hole-cutter AUTO_HOLE_CUTTER001
+   Number of inside  elements:          63875000
+   Number of fringe  elements:           1242752
+   Number of outside elements:          68315079
+   Number of BAD fringe elements:              0
+ WALL TIME(secs):           7.441
+
+EXECUTING:                              interpolate at 00:23:42.009
+ Primary 1:main                                    
+ Primary 2:flap                                    
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:    342513 interpolation points for:
+ Recipient Mesh:main                                    
+ Donor Mesh:flap                                    
+ WALL TIME(secs):           0.246
+
+EXECUTING:                              interpolate at 00:23:42.255
+ Primary 1:main                                    
+ Primary 2:boxinner                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:    383409 interpolation points for:
+ Recipient Mesh:main                                    
+ Donor Mesh:boxinner                                
+ WALL TIME(secs):           0.175
+
+EXECUTING:                              interpolate at 00:23:42.430
+ Primary 1:main                                    
+ Primary 2:boxouter                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:    383409 interpolation points for:
+ Recipient Mesh:main                                    
+ Donor Mesh:boxouter                                
+ WALL TIME(secs):           0.170
+
+EXECUTING:                              interpolate at 00:23:42.600
+ Primary 1:flap                                    
+ Primary 2:main                                    
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:    181527 interpolation points for:
+ Recipient Mesh:flap                                    
+ Donor Mesh:main                                    
+ WALL TIME(secs):           0.200
+
+EXECUTING:                              interpolate at 00:23:42.800
+ Primary 1:flap                                    
+ Primary 2:boxinner                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:    189501 interpolation points for:
+ Recipient Mesh:flap                                    
+ Donor Mesh:boxinner                                
+ WALL TIME(secs):           0.088
+
+EXECUTING:                              interpolate at 00:23:42.888
+ Primary 1:flap                                    
+ Primary 2:boxouter                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:    189501 interpolation points for:
+ Recipient Mesh:flap                                    
+ Donor Mesh:boxouter                                
+ WALL TIME(secs):           0.086
+
+EXECUTING:                              interpolate at 00:23:42.975
+ Primary 1:boxinner                                
+ Primary 2:main                                    
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:      3181 interpolation points for:
+ Recipient Mesh:boxinner                                
+ Donor Mesh:main                                    
+ WALL TIME(secs):           0.042
+
+EXECUTING:                              interpolate at 00:23:43.017
+ Primary 1:boxinner                                
+ Primary 2:flap                                    
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:      2514 interpolation points for:
+ Recipient Mesh:boxinner                                
+ Donor Mesh:flap                                    
+ WALL TIME(secs):           0.029
+
+EXECUTING:                              interpolate at 00:23:43.046
+ Primary 1:boxinner                                
+ Primary 2:boxouter                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:     26664 interpolation points for:
+ Recipient Mesh:boxinner                                
+ Donor Mesh:boxouter                                
+ WALL TIME(secs):           0.024
+
+EXECUTING:                              interpolate at 00:23:43.070
+ Primary 1:boxouter                                
+ Primary 2:main                                    
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:        66 interpolation points for:
+ Recipient Mesh:boxouter                                
+ Donor Mesh:main                                    
+ WALL TIME(secs):           0.034
+
+EXECUTING:                              interpolate at 00:23:43.104
+ Primary 1:boxouter                                
+ Primary 2:flap                                    
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:        51 interpolation points for:
+ Recipient Mesh:boxouter                                
+ Donor Mesh:flap                                    
+ WALL TIME(secs):           0.018
+
+EXECUTING:                              interpolate at 00:23:43.122
+ Primary 1:boxouter                                
+ Primary 2:boxinner                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:      7344 interpolation points for:
+ Recipient Mesh:boxouter                                
+ Donor Mesh:boxinner                                
+ WALL TIME(secs):           0.012
+
+EXECUTING:                                 auto_cut at 00:23:43.134
+ Primary 1:main                                    
+ Primary 2:AUTO_HOLE_CUTTER001                     
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+Successful retris =         0 failed retris =         0 non-overlapping triangles =      3831
+
+ WALL TIME(secs):           0.317
+
+EXECUTING:                                 auto_cut at 00:23:43.451
+ Primary 1:flap                                    
+ Primary 2:AUTO_HOLE_CUTTER001                     
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+Successful retris =         0 failed retris =         0 non-overlapping triangles =      1257
+
+ WALL TIME(secs):           0.393
+
+EXECUTING:                                 auto_cut at 00:23:43.844
+ Primary 1:boxinner                                
+ Primary 2:AUTO_HOLE_CUTTER001                     
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+  
+  Box-grid hole cutting: blanked           94  grid cells in mesh boxinner                                
+Successful retris =         0 failed retris =         0 non-overlapping triangles =         0
+
+ WALL TIME(secs):           0.222
+
+EXECUTING:                                 auto_cut at 00:23:44.066
+ Primary 1:boxouter                                
+ Primary 2:AUTO_HOLE_CUTTER001                     
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+  
+  Box-grid hole cutting: blanked           10  grid cells in mesh boxouter                                
+Successful retris =         0 failed retris =         0 non-overlapping triangles =         0
+
+ WALL TIME(secs):           0.076
+
+EXECUTING:                                comp_hole at 00:23:44.142
+ Primary 1:main                                    
+ Primary 2:                                        
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     1
+ Secondary_2: AUTO_HOLE_CUTTER001                     
+ FOUND:      4737 composite hole points for: main                                    
+
+ WALL TIME(secs):           0.024
+
+EXECUTING:                                comp_hole at 00:23:44.166
+ Primary 1:flap                                    
+ Primary 2:                                        
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     1
+ Secondary_2: AUTO_HOLE_CUTTER001                     
+ FOUND:      1734 composite hole points for: flap                                    
+
+ WALL TIME(secs):           0.011
+
+EXECUTING:                                comp_hole at 00:23:44.177
+ Primary 1:boxinner                                
+ Primary 2:                                        
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     1
+ Secondary_2: AUTO_HOLE_CUTTER001                     
+ FOUND:       486 composite hole points for: boxinner                                
+
+ WALL TIME(secs):           0.002
+
+EXECUTING:                                comp_hole at 00:23:44.179
+ Primary 1:boxouter                                
+ Primary 2:                                        
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     1
+ Secondary_2: AUTO_HOLE_CUTTER001                     
+ FOUND:       123 composite hole points for: boxouter                                
+
+ WALL TIME(secs):           0.001
+
+EXECUTING:                                spec_int1 at 00:23:44.180
+ Primary 1:main                                    
+ Primary 2:                                        
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:      2245 first-fringe  points requiring interpolation for:                                     main
+ FOUND:      1597 second-fringe points requiring interpolation for:                                     main
+ FOUND:         0  third-fringe points requiring interpolation for:                                     main
+ WALL TIME(secs):           0.042
+
+EXECUTING:                                spec_int1 at 00:23:44.222
+ Primary 1:flap                                    
+ Primary 2:                                        
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:      1188 first-fringe  points requiring interpolation for:                                     flap
+ FOUND:       835 second-fringe points requiring interpolation for:                                     flap
+ FOUND:         0  third-fringe points requiring interpolation for:                                     flap
+ WALL TIME(secs):           0.021
+
+EXECUTING:                                spec_int1 at 00:23:44.243
+ Primary 1:boxinner                                
+ Primary 2:                                        
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:       550 first-fringe  points requiring interpolation for:                                 boxinner
+ FOUND:       402 second-fringe points requiring interpolation for:                                 boxinner
+ FOUND:         0  third-fringe points requiring interpolation for:                                 boxinner
+ WALL TIME(secs):           0.003
+
+EXECUTING:                                spec_int1 at 00:23:44.246
+ Primary 1:boxouter                                
+ Primary 2:                                        
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:        80 first-fringe  points requiring interpolation for:                                 boxouter
+ FOUND:        12 second-fringe points requiring interpolation for:                                 boxouter
+ FOUND:         0  third-fringe points requiring interpolation for:                                 boxouter
+ WALL TIME(secs):           0.004
+
+EXECUTING:                              spec_level1 at 00:23:44.250
+ Primary 1:main                                    
+ Primary 2:                                        
+ Number of Secondary_1:     3
+ Secondary_1: flap                                    
+ Secondary_1: boxinner                                
+ Secondary_1: boxouter                                
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:      1848 level1 interpolated points for:
+    Recipient Mesh:main                                    
+    Donor     Mesh:flap                                    
+ FOUND:      1994 level1 interpolated points for:
+    Recipient Mesh:main                                    
+    Donor     Mesh:boxinner                                
+ FOUND:         0 level1 interpolated points for:
+    Recipient Mesh:main                                    
+    Donor     Mesh:boxouter                                
+ FOUND:         0 ORPHAN points for:
+  Mesh:                                    main
+
+ WALL TIME(secs):           0.052
+
+EXECUTING:                              spec_level1 at 00:23:44.303
+ Primary 1:flap                                    
+ Primary 2:                                        
+ Number of Secondary_1:     3
+ Secondary_1: main                                    
+ Secondary_1: boxinner                                
+ Secondary_1: boxouter                                
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:      1019 level1 interpolated points for:
+    Recipient Mesh:flap                                    
+    Donor     Mesh:main                                    
+ FOUND:      1004 level1 interpolated points for:
+    Recipient Mesh:flap                                    
+    Donor     Mesh:boxinner                                
+ FOUND:         0 level1 interpolated points for:
+    Recipient Mesh:flap                                    
+    Donor     Mesh:boxouter                                
+ FOUND:         0 ORPHAN points for:
+  Mesh:                                    flap
+
+ WALL TIME(secs):           0.041
+
+EXECUTING:                              spec_level1 at 00:23:44.345
+ Primary 1:boxinner                                
+ Primary 2:                                        
+ Number of Secondary_1:     3
+ Secondary_1: main                                    
+ Secondary_1: flap                                    
+ Secondary_1: boxouter                                
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:        83 level1 interpolated points for:
+    Recipient Mesh:boxinner                                
+    Donor     Mesh:main                                    
+ FOUND:       129 level1 interpolated points for:
+    Recipient Mesh:boxinner                                
+    Donor     Mesh:flap                                    
+ FOUND:       740 level1 interpolated points for:
+    Recipient Mesh:boxinner                                
+    Donor     Mesh:boxouter                                
+ FOUND:         0 ORPHAN points for:
+  Mesh:                                boxinner
+
+ WALL TIME(secs):           0.033
+
+EXECUTING:                              spec_level1 at 00:23:44.378
+ Primary 1:boxouter                                
+ Primary 2:                                        
+ Number of Secondary_1:     3
+ Secondary_1: main                                    
+ Secondary_1: flap                                    
+ Secondary_1: boxinner                                
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:         0 level1 interpolated points for:
+    Recipient Mesh:boxouter                                
+    Donor     Mesh:main                                    
+ FOUND:         0 level1 interpolated points for:
+    Recipient Mesh:boxouter                                
+    Donor     Mesh:flap                                    
+ FOUND:        92 level1 interpolated points for:
+    Recipient Mesh:boxouter                                
+    Donor     Mesh:boxinner                                
+ FOUND:         0 ORPHAN points for:
+  Mesh:                                boxouter
+
+ WALL TIME(secs):           0.031
+
+EXECUTING:                                level1fix at 00:23:44.409
+ Primary 1:main                                    
+ Primary 2:                                        
+ Number of Secondary_1:     3
+ Secondary_1: flap                                    
+ Secondary_1: boxinner                                
+ Secondary_1: boxouter                                
+ Number of Secondary_2:     0
+ Secondary_2: 
+ WALL TIME(secs):           0.000
+
+EXECUTING:                                level1fix at 00:23:44.409
+ Primary 1:flap                                    
+ Primary 2:                                        
+ Number of Secondary_1:     3
+ Secondary_1: main                                    
+ Secondary_1: boxinner                                
+ Secondary_1: boxouter                                
+ Number of Secondary_2:     0
+ Secondary_2: 
+ WALL TIME(secs):           0.000
+
+EXECUTING:                                level1fix at 00:23:44.409
+ Primary 1:boxinner                                
+ Primary 2:                                        
+ Number of Secondary_1:     3
+ Secondary_1: main                                    
+ Secondary_1: flap                                    
+ Secondary_1: boxouter                                
+ Number of Secondary_2:     0
+ Secondary_2: 
+ WALL TIME(secs):           0.000
+
+EXECUTING:                                level1fix at 00:23:44.409
+ Primary 1:boxouter                                
+ Primary 2:                                        
+ Number of Secondary_1:     3
+ Secondary_1: main                                    
+ Secondary_1: flap                                    
+ Secondary_1: boxinner                                
+ Number of Secondary_2:     0
+ Secondary_2: 
+ WALL TIME(secs):           0.000
+
+EXECUTING:                                spec_int2 at 00:23:44.409
+ Primary 1:main                                    
+ Primary 2:flap                                    
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:      1121 level 2 interpolation points for:
+    Recipient Mesh:                                    main
+    Donor     Mesh:                                    flap
+ FOUND:      8343 level 2 interpolation points for:
+    Recipient Mesh:                                    flap
+    Donor     Mesh:                                    main
+ WALL TIME(secs):           0.112
+
+EXECUTING:                                spec_int2 at 00:23:44.521
+ Primary 1:main                                    
+ Primary 2:boxinner                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:         0 level 2 interpolation points for:
+    Recipient Mesh:                                    main
+    Donor     Mesh:                                boxinner
+ FOUND:       634 level 2 interpolation points for:
+    Recipient Mesh:                                boxinner
+    Donor     Mesh:                                    main
+ WALL TIME(secs):           0.051
+
+EXECUTING:                                spec_int2 at 00:23:44.572
+ Primary 1:main                                    
+ Primary 2:boxouter                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:         0 level 2 interpolation points for:
+    Recipient Mesh:                                    main
+    Donor     Mesh:                                boxouter
+ FOUND:         0 level 2 interpolation points for:
+    Recipient Mesh:                                boxouter
+    Donor     Mesh:                                    main
+ WALL TIME(secs):           0.048
+
+EXECUTING:                                spec_int2 at 00:23:44.620
+ Primary 1:flap                                    
+ Primary 2:boxinner                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:         0 level 2 interpolation points for:
+    Recipient Mesh:                                    flap
+    Donor     Mesh:                                boxinner
+ FOUND:       445 level 2 interpolation points for:
+    Recipient Mesh:                                boxinner
+    Donor     Mesh:                                    flap
+ WALL TIME(secs):           0.036
+
+EXECUTING:                                spec_int2 at 00:23:44.656
+ Primary 1:flap                                    
+ Primary 2:boxouter                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:         0 level 2 interpolation points for:
+    Recipient Mesh:                                    flap
+    Donor     Mesh:                                boxouter
+ FOUND:         0 level 2 interpolation points for:
+    Recipient Mesh:                                boxouter
+    Donor     Mesh:                                    flap
+ WALL TIME(secs):           0.025
+
+EXECUTING:                                spec_int2 at 00:23:44.681
+ Primary 1:boxinner                                
+ Primary 2:boxouter                                
+ Number of Secondary_1:     0
+ Secondary_1: 
+ Number of Secondary_2:     0
+ Secondary_2: 
+ FOUND:       369 level 2 interpolation points for:
+    Recipient Mesh:                                boxinner
+    Donor     Mesh:                                boxouter
+ FOUND:       842 level 2 interpolation points for:
+    Recipient Mesh:                                boxouter
+    Donor     Mesh:                                boxinner
+ WALL TIME(secs):           0.009
+
+EXECUTING:                              spec_level2 at 00:23:44.690
+ Primary 1:main                                    
+ Primary 2:                                        
+ Number of Secondary_1:     3
+ Secondary_1: flap                                    
+ Secondary_1: boxinner                                
+ Secondary_1: boxouter                                
+ Number of Secondary_2:     0
+ Secondary_2: 
+ WALL TIME(secs):           0.036
+
+EXECUTING:                              spec_level2 at 00:23:44.726
+ Primary 1:flap                                    
+ Primary 2:                                        
+ Number of Secondary_1:     3
+ Secondary_1: main                                    
+ Secondary_1: boxinner                                
+ Secondary_1: boxouter                                
+ Number of Secondary_2:     0
+ Secondary_2: 
+ WALL TIME(secs):           0.009
+
+EXECUTING:                              spec_level2 at 00:23:44.735
+ Primary 1:boxinner                                
+ Primary 2:                                        
+ Number of Secondary_1:     3
+ Secondary_1: main                                    
+ Secondary_1: flap                                    
+ Secondary_1: boxouter                                
+ Number of Secondary_2:     0
+ Secondary_2: 
+ WALL TIME(secs):           0.014
+
+EXECUTING:                              spec_level2 at 00:23:44.749
+ Primary 1:boxouter                                
+ Primary 2:                                        
+ Number of Secondary_1:     3
+ Secondary_1: main                                    
+ Secondary_1: flap                                    
+ Secondary_1: boxinner                                
+ Number of Secondary_2:     0
+ Secondary_2: 
+ WALL TIME(secs):           0.001
+
+EXECUTING:                                  xintout at 00:23:44.750
+ Primary 1:                                        
+ Primary 2:                                        
+ Number of Secondary_1:    12
+ Secondary_1: main                                    
+ Secondary_1: main                                    
+ Secondary_1: main                                    
+ Secondary_1: flap                                    
+ Secondary_1: flap                                    
+ Secondary_1: flap                                    
+ Secondary_1: boxinner                                
+ Secondary_1: boxinner                                
+ Secondary_1: boxinner                                
+ Secondary_1: boxouter                                
+ Secondary_1: boxouter                                
+ Secondary_1: boxouter                                
+ Number of Secondary_2:    12
+ Secondary_2: flap                                    
+ Secondary_2: boxinner                                
+ Secondary_2: boxouter                                
+ Secondary_2: main                                    
+ Secondary_2: boxinner                                
+ Secondary_2: boxouter                                
+ Secondary_2: main                                    
+ Secondary_2: flap                                    
+ Secondary_2: boxouter                                
+ Secondary_2: main                                    
+ Secondary_2: flap                                    
+ Secondary_2: boxinner                                
+
+
+
+
+-------------------------------------------------------------------------------
+                    |               |               |                         |
+Mesh Name           |Interpolated   |Interpolation  |Orphan Points            |
+                    |Boundary Points|Stencil        |                         |
+                    |               |               |                         |
+-------------------------------------------------------------------------------
+                    |               |               |                         |
+main                |Level 1:   3842|Level 1:   1102|1st Fringe:      0       |
+                    |Level 2:   1121|Level 2:   8743|2nd Fringe:      0(Fixed)|
+                    |               |               |3rd Fringe:      0(Fixed)|
+                    |Total:     4963|Total:     9845|Total:           0       |
+                    |               |               |                         |
+-------------------------------------------------------------------------------
+                    |               |               |                         |
+flap                |Level 1:   2023|Level 1:   1977|1st Fringe:      0       |
+                    |Level 2:   8343|Level 2:   1497|2nd Fringe:      0(Fixed)|
+                    |               |               |3rd Fringe:      0(Fixed)|
+                    |Total:    10366|Total:     3474|Total:           0       |
+                    |               |               |                         |
+-------------------------------------------------------------------------------
+                    |               |               |                         |
+boxinner            |Level 1:    952|Level 1:   3090|1st Fringe:      0       |
+                    |Level 2:   1145|Level 2:    842|2nd Fringe:      0(Fixed)|
+                    |               |               |3rd Fringe:      0(Fixed)|
+                    |Total:     2097|Total:     3932|Total:           0       |
+                    |               |               |                         |
+-------------------------------------------------------------------------------
+                    |               |               |                         |
+boxouter            |Level 1:     92|Level 1:    740|1st Fringe:      0       |
+                    |Level 2:    842|Level 2:    369|2nd Fringe:      0(Fixed)|
+                    |               |               |3rd Fringe:      0(Fixed)|
+                    |Total:      934|Total:     1109|Total:           0       |
+                    |               |               |                         |
+-------------------------------------------------------------------------------
+                |                 |                 |                         |
+Grand Total     |Level 1:     6909|Level 1:     6909|1st Fringe:      0       |
+                |Level 2:    11451|Level 2:    11451|2nd Fringe:      0       |
+                |                 |                 |3rd Fringe:      0       |
+                |Total:      18360|Total:      18360|Total:           0       |
+                |                 |                 |                         |
+-------------------------------------------------------------------------------
+ WALL TIME(secs):           0.010
+
+
+
+ PROCESS TIME (secs) for projection   :           0.002 sub-processes =   12
+ PROCESS TIME (secs) for cellcenter   :           0.000 sub-processes =    0
+ PROCESS TIME (secs) for ccblock1     :           0.000 sub-processes =    0
+ PROCESS TIME (secs) for ccblock2     :           0.000 sub-processes =    0
+ PROCESS TIME (secs) for adt          :           0.115 sub-processes =    4
+ PROCESS TIME (secs) for auto_hbound  :           7.441 sub-processes =    1
+ PROCESS TIME (secs) for man_hbound   :           0.000 sub-processes =    0
+ PROCESS TIME (secs) for interpolate  :           1.124 sub-processes =   12
+ PROCESS TIME (secs) for auto_cut     :           1.008 sub-processes =    4
+ PROCESS TIME (secs) for man_cut      :           0.000 sub-processes =    0
+ PROCESS TIME (secs) for comp_hole    :           0.038 sub-processes =    4
+ PROCESS TIME (secs) for spec_int1    :           0.070 sub-processes =    4
+ PROCESS TIME (secs) for spec_level1  :           0.157 sub-processes =    4
+ PROCESS TIME (secs) for level1fix    :           0.000 sub-processes =    4
+ PROCESS TIME (secs) for spec_int2    :           0.281 sub-processes =    6
+ PROCESS TIME (secs) for spec_level2  :           0.060 sub-processes =    4
+ PROCESS TIME (secs) for xintout      :           0.010 sub-processes =    1
+
+ TOTAL WALL TIME(secs):          10.306

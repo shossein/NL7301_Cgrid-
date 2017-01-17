@@ -1,0 +1,7 @@
+*******
+Tue Jan 17 11:54:12 PST 2017
+Linux sheida-Latitude-E7450 3.16.0-38-generic #52~14.04.1-Ubuntu SMP Fri May 8 09:43:57 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
+/home/sheida/OVERFLOW/over2.2l/bin_dp/overflow
+a.1.inp
+0.45user 0.03system 0:00.49elapsed 98%CPU (0avgtext+0avgdata 164836maxresident)k
+1832inputs+64outputs (8major+7683minor)pagefaults 0swaps

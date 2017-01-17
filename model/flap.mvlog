@@ -1,0 +1,31 @@
+ # 
+ # Log of makevol version 1.21 parameters. 
+ # 
+  makevol flap.vol -volres 0.3 -iaxis 1 -dz0 1e-6 -dz1 0.0 -smu2 1.0 -itsvol 10 -ibcka 2 -exaxis 0.3 -srmax 1.12 -ibckb 2 -timj 0.0 -timk 0.0 -zreg 1.0 -ibcja 2 -ibcjb 2 
+ # Hypgen inputs used are in flap.hypi: 
+ 		CHORD           = 1.0             
+ 		DZ0             = 1e-6            
+ 		DZ1             = 0.0             
+ 		EPSSS           = 0.0             
+ 		EXAXIS          = 0.3             
+ 		IAXIS           = 1               
+ 		IBCJA           = 2               
+ 		IBCJB           = 2               
+ 		IBCKA           = 2               
+ 		IBCKB           = 2               
+ 		IMETH           = 2               
+ 		ITSVOL          = 10              
+ 		IVSPEC          = 1               
+ 		IZSTRT          = 2               
+ 		KBLAYER         = 0               
+ 		NPZREG          = 113             
+ 		NSUB            = 1               
+ 		NZREG           = 1               
+ 		SMU2            = 1.0             
+ 		TIMJ            = 0.0             
+ 		TIMK            = 0.0             
+ 		VOLRES          = 0.3             
+ 		XREF            = 0.1             
+ 		YPLUS           = 1               
+ 		ZREG            = 1.0             
+ /opt/pkg/chimera2.1/bin_dp/smogrd -f flap.vol -o grid.smth -jte  100 

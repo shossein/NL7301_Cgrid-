@@ -1,0 +1,17 @@
+
+
+ Options: 1 = Specify by mesh name,
+          2 = Specify by mesh #,
+          3 = List mesh name and numbers,
+          4 = Write out all meshes,
+          5 = Quit
+ Enter option: 
+ Enter option (1=write to screen,
+               2=write to file): 
+
+ Options: 1 = Specify by mesh name,
+          2 = Specify by mesh #,
+          3 = List mesh name and numbers,
+          4 = Write out all meshes,
+          5 = Quit
+ Enter option: 

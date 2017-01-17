@@ -1,0 +1,2 @@
+klayer 3 zreg 1.0 ibcka 2 volres 0.3 srmax 1.12 ibckb 2 iopt 1 offset 3 smu2 1.0 orphfix .TRUE. ibcja 2 itsvol 10 level2 .TRUE. istr 1 exaxis 0.3 ibcjb 2 fringe 2 dolka 0.0 auto_space 1 dolkb 0.0 timj 0.0 ymin -1.0 mlevel 3 timk 0.0 iaxis 1 dz0 1e-6 outer .TRUE. ymax 1.0 dz1 0.0
+dolla 100.0 dollb 100.0 box model/boxinner.vol boxdy 1.0 jch,kch,lch 0,0,-1 dolja 100.0 offset 2 doljb 100.0
